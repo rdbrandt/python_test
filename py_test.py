@@ -1,6 +1,7 @@
 data = [1,2,3,4,5]
 
-print 'Try changing the same line that was changed in "branch 02"'
+print 'Now changed something in "branch 02" \
+        plus another new line'
 
 for i, item in enumerate(data):
     print 'index: ' + str(i) + ',', 'value: ' + str(item)
